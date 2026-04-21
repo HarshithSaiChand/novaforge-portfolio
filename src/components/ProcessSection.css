@@ -1,0 +1,81 @@
+.process-section {
+  position: relative;
+}
+
+.process-timeline {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 4rem;
+  position: relative;
+}
+
+.process-step {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.process-number {
+  font-size: 3rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.05);
+  margin-bottom: -1.5rem;
+  z-index: -1;
+}
+
+.process-content-card {
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  height: 100%;
+}
+
+.process-icon-wrapper {
+  color: var(--accent-primary);
+  margin-bottom: 1.5rem;
+}
+
+.process-content-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.process-content-card p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.process-connector {
+  position: absolute;
+  top: 45%;
+  right: -1.2rem;
+  width: 2.4rem;
+  height: 2px;
+  background: var(--accent-gradient);
+  opacity: 0.3;
+}
+
+@media (max-width: 968px) {
+  .process-timeline {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .process-connector {
+    right: auto;
+    bottom: -1.8rem;
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 1.5rem;
+  }
+
+  .process-number {
+    margin-bottom: -1rem;
+  }
+}
