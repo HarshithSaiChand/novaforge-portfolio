@@ -20,11 +20,12 @@
 }
 
 .process-number {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 800;
-  color: rgba(255, 255, 255, 0.05);
-  margin-bottom: -1.5rem;
+  color: rgba(255, 255, 255, 0.12);
+  margin-bottom: -2rem;
   z-index: -1;
+  text-shadow: 0 0 20px rgba(99, 102, 241, 0.1);
 }
 
 .process-content-card {
