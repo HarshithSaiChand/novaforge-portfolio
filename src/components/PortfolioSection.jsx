@@ -8,7 +8,7 @@ const PortfolioSection = () => {
       title: "Mitros Message App",
       category: "Android Application (Java)",
       description: "A secure, native Android messaging application featuring real-time chat, media sharing, and intuitive UI components for a seamless user experience.",
-      image: "https://images.unsplash.com/photo-1556656793-062ff9878258?q=80&w=1000&auto=format&fit=crop"
+      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1000&auto=format&fit=crop"
     },
     {
       id: 2,
